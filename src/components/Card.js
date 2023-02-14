@@ -1,7 +1,4 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
-import Rectangle48 from "../assets/img/Rectangle 48.png";
 export const Card = () => {
 
   
@@ -23,8 +20,8 @@ export const Card = () => {
                                      </h4>
                                      <div class="line"></div>
                                      <h5 className="textCardBody" >1 500 рублей</h5>
-                                     <h5 className="textCardBodyTwo" >Наш бот подбирает Вам психолога, который... </h5>
-                                     <button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button>
+                                     <h5 className="textCardBodyTwo" >Наш бот подбирает Вам психолога, который специализируется на вашей проблеме</h5>
+                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button></a>
                                  </div>
                              </div>
                          </div>
@@ -34,12 +31,12 @@ export const Card = () => {
                              <div className="front">
                                  <div className="front1">
                                      <h4 className="textCardHeader">
-                                      Каждая следующая консультация
+                                      Каждая следующая
                                      </h4>
                                      <div class="line"></div>
-                                     <h5 className="textCardBody">1 500 рублей</h5>
-                                     <h5 className="textCardBodyTwo">Наш бот подбирает Вам психолога, который... </h5>
-                                     <button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button>
+                                     <h5 className="textCardBody">1 800 рублей</h5>
+                                     <h5 className="textCardBodyTwo">Наш бот подбирает Вам психолога, который специализируется на вашей проблеме</h5>
+                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button></a>
                                  </div>
                              </div>                       
                          </div>

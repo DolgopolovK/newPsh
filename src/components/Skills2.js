@@ -29,7 +29,7 @@ export const Skills2 = () => {
               <div className='buttomMobil'>
                 <h2> Бот сам подскажет как им пользоваться и напомнит о запланированной встрече. </h2>
                 <div className='skill2buttonMobile'>
-                <button onClick={() => console.log('connect')} className = "skill2button">Перейти в Telegram</button>
+                <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "skill2button">Перейти в Telegram</button></a>
                 </div>
               </div>}
             </TrackVisibility>

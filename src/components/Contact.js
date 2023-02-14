@@ -25,8 +25,8 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText("Отправка...");
-    let response = await fetch("http://localhost:5000/contact", {
+    setButtonText("Доставлено");
+    let response = await fetch("https://getform.io/f/e13459b4-8e3a-4c45-a232-83785922d80c", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -36,7 +36,7 @@ export const Contact = () => {
     setButtonText("Отправить");
     let result = await response.json();
     setFormDetails(formInitialDetails);
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ succes: true, message: 'Message sent successfully'});
     } else {
       setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
