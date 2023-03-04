@@ -19,10 +19,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
-              <a href="#"><img src={navIcon4} alt="Icon" /></a>
+              <a href="https://dzen.ru/id/5f3bceee70d985686bb768b9"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://vk.com/public218860758"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://t.me/psihologichnochannel"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://t.me/psihologichnochannel"><img src={navIcon4} alt="Icon" /></a>
             </div>
             
           </Col>

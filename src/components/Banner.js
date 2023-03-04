@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/BannerBG.svg";
+import headerImg from "../assets/img/BannerBG.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import { Navbar, Nav} from "react-bootstrap";
